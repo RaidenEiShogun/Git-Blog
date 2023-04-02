@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    color: #556;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    background-color: white;
+}
+
+.container {
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+}
+
+#my_web {
+    background-color: coral;
+    color: white;
+}
+
+#nav {
+    background-color: #334
+    ;
+    color: white;
+}
+
+#nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+#showcase {
+
+    background-image: url(../images/yyy.png);
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#showcase h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main {
+    padding: 0 30px;
+    box-sizing: border-box;
+    width: 70%;
+    float: left;
+}
+
+#sidebar {
+    box-sizing: border-box;
+    width: 30%;
+    background-color: #334;
+    color: white;
+    /* margin-left: auto; можно было бы заменить float*/
+    padding: 10px;
+    float: right;
+}
+
+#main-footer {
+    background-color: #334;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width: 600px) {
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
